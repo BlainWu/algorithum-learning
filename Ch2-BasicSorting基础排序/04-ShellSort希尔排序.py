@@ -39,8 +39,6 @@ def pythonSort(arr):
     arr.sort()
     print("算法：python自带")
 
-
-
 if __name__ == '__main__':
     randomarry = generateRandomArray(10000,0,100)
     randomarry1 = randomarry.copy()
