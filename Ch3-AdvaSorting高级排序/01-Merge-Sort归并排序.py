@@ -14,6 +14,7 @@ def merge_sort(arr):
 def __merge_sort(arr,l,r):
     if l>=r :
         return
+    '''这里还可以把l>=r这部分换成插入排序当排序范围为小于15时）'''
     mid = l + (r-l) // 2
     __merge_sort(arr,l,mid)
     __merge_sort(arr,mid+1,r)
@@ -36,7 +37,6 @@ def __merge(arr,l,mid,r):
         elif j>r:
             arr[k] = aux[i-1]
             i+=1
-
 
 if __name__ == '__main__':
     pass
