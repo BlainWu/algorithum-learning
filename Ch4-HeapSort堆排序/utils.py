@@ -40,3 +40,11 @@ def isSort(array):
         if(array[i]>array[i+1]):
             return False
     return True
+
+'''最大堆'''
+class MaxHeap:
+    def __init__(self,arr=None,capacity = 10):
+        if not arr:
+            self._data = [None]*(capacity + 1)
+            self._count = 0
+            self._capacity = capacity
