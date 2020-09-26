@@ -121,13 +121,13 @@ def __quickSort3(arr,l,r):
 
 
 if __name__ == '__main__':
-    arr = generateRandomArray(10000,1,10000)
+    arr = generateRandomArray(10000,1,100000)
     arr1 = arr.copy()
     arr2 = arr.copy()
     arr3 = arr.copy()
     arr4 = arr.copy()
-    quickSort(arr1)
-    quickSort_rand(arr2)
+    #quickSort(arr1)
+    #quickSort_rand(arr2)
     quickSort2(arr3)
     quickSort3(arr4)
     #print(arr)
